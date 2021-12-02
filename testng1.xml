@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Suite">  
+<test name="Parameterization">   
+<parameter name="java" value="java"/>  
+<parameter name="testng" value="testng"/>  
+<classes>  
+<class name= "com.scuba.testng.Parameterization"/>  
+</classes>  
+</test>  
+<test name="Parameterization1">   
+<parameter name="selenium" value="selenium"/>  
+<parameter name="maven" value="maven"/>  
+<classes>  
+<class name= "com.scuba.testng.Parameterization1"/>  
+</classes>  
+</test>  
+</suite> <!-- Suite -->  
